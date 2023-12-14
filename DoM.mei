@@ -26,6 +26,13 @@
         		</changeDesc>
         		<date isodate="2023-12-13"/>
     		</change>
+         <change n="2">
+        		<changeDesc>
+					<p>Added melodic intervals between scale notes. https://music-encoding.org/guidelines/v5/attribute-classes/att.intervalMelodic.html </p>
+					<p>Added visual indication of every note's degree in the scale. https://music-encoding.org/guidelines/dev/elements/harm.html </p>
+        		</changeDesc>
+        		<date isodate="2023-12-14"/>
+    		</change>
       </revisionDesc>
    </meiHead>
    <music>
@@ -42,15 +49,23 @@
                      <staff xml:id="doMstaff" n="1">
                         <layer xml:id="doMlayer1" n="1">
                            <note xml:id="M1" dur="1" oct="4" pname="c" deg="1" />
-                           <note xml:id="M2" dur="1" oct="4" pname="d" deg="2"/>
-                           <note xml:id="M3" dur="1" oct="4" pname="e" deg="3"/>
-                           <note xml:id="M4" dur="1" oct="4" pname="f" deg="4"/>
-                           <note xml:id="M5" dur="1" oct="4" pname="g" deg="5"/>
-                           <note xml:id="M6" dur="1" oct="4" pname="a" deg="6"/>
-                           <note xml:id="M7" dur="1" oct="4" pname="b" deg="7"/>
-                           <note xml:id="M8" dur="1" oct="5" pname="c" deg="1"/>
+                           <note xml:id="M2" dur="1" oct="4" pname="d" deg="2" intm="+M2"/>
+                           <note xml:id="M3" dur="1" oct="4" pname="e" deg="3" intm="+M2"/>
+                           <note xml:id="M4" dur="1" oct="4" pname="f" deg="4" intm="+m2"/>
+                           <note xml:id="M5" dur="1" oct="4" pname="g" deg="5" intm="+M2"/>
+                           <note xml:id="M6" dur="1" oct="4" pname="a" deg="6" intm="+M2"/>
+                           <note xml:id="M7" dur="1" oct="4" pname="b" deg="7" intm="+M2"/>
+                           <note xml:id="M8" dur="1" oct="5" pname="c" deg="1" intm="+m2"/>
                         </layer>
                      </staff>
+					 <harm xml:id="M1deg" type="degree" startid="#M1" place="below">I</harm>
+                     <harm xml:id="M2deg" type="degree" startid="#M2" place="below">II</harm>
+                     <harm xml:id="M3deg" type="degree" startid="#M3" place="below">III</harm>
+                     <harm xml:id="M4deg" type="degree" startid="#M4" place="below">IV</harm>
+                     <harm xml:id="M5deg" type="degree" startid="#M5" place="below">V</harm>
+                     <harm xml:id="M6deg" type="degree" startid="#M6" place="below">VI</harm>
+                     <harm xml:id="M7deg" type="degree" startid="#M7" place="below">VII</harm>
+                     <harm xml:id="M8deg" type="degree" startid="#M8" place="below">I</harm>
                   </measure>
                </section>
             </score>

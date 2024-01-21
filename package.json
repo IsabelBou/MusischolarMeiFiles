@@ -1,0 +1,11 @@
+{
+  "name": "musischolarmeifiles",
+  "version": "1.0.0",
+  "description": "MEI files used in Musischolar",
+  "scripts": {},
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "eslint": "^8.56.0"
+  }
+}

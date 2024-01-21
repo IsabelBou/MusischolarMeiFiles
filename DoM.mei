@@ -20,19 +20,19 @@
          </projectDesc>
       </encodingDesc>
       <revisionDesc>
-    		<change n="1">
-        		<changeDesc>
-                <p>Manual file encoding.</p>
-        		</changeDesc>
-        		<date isodate="2023-12-13"/>
-    		</change>
+         <change n="1">
+            <changeDesc>
+               <p>Manual file encoding.</p>
+            </changeDesc>
+            <date isodate="2023-12-13"/>
+         </change>
          <change n="2">
-        		<changeDesc>
+            <changeDesc>
 					<p>Added melodic intervals between scale notes. https://music-encoding.org/guidelines/v5/attribute-classes/att.intervalMelodic.html </p>
-					<p>Added visual indication of every note's degree in the scale. https://music-encoding.org/guidelines/dev/elements/harm.html </p>
-        		</changeDesc>
-        		<date isodate="2023-12-14"/>
-    		</change>
+               <p>Added visual indication of every note's degree in the scale. https://music-encoding.org/guidelines/dev/elements/harm.html </p>
+            </changeDesc>
+            <date isodate="2023-12-14"/>
+         </change>
       </revisionDesc>
    </meiHead>
    <music>
@@ -58,7 +58,7 @@
                            <note xml:id="M8" dur="1" oct="5" pname="c" deg="1" intm="+m2"/>
                         </layer>
                      </staff>
-					 <harm xml:id="M1deg" type="degree" startid="#M1" place="below">I</harm>
+                     <harm xml:id="M1deg" type="degree" startid="#M1" place="below">I</harm>
                      <harm xml:id="M2deg" type="degree" startid="#M2" place="below">II</harm>
                      <harm xml:id="M3deg" type="degree" startid="#M3" place="below">III</harm>
                      <harm xml:id="M4deg" type="degree" startid="#M4" place="below">IV</harm>

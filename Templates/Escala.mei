@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://music-encoding.org/schema/5.0/mei-all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://music-encoding.org/schema/5.0/mei-all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<mei xmlns="http://www.music-encoding.org/ns/mei" meiversion="5.0">
+   <meiHead>
+      <fileDesc>
+         <titleStmt>
+            <title />
+         </titleStmt>
+         <pubStmt>
+            <date isodate="2024-01-01" />
+         </pubStmt>
+         <seriesStmt>
+            <title>Musischolar files</title>
+         </seriesStmt>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>XXXXXX</p>
+         </projectDesc>
+      </encodingDesc>
+      <revisionDesc>
+         <change n="1">
+            <changeDesc>
+               <p>Manual file encoding with melodic intervals between scale notes and relevant harmonics .</p>
+            </changeDesc>
+            <date isodate="2024-01-01"/>
+         </change>
+      </revisionDesc>
+   </meiHead>
+   <music>
+      <body>
+         <mdiv xml:id="XXXXXXmdiv">
+            <score xml:id="XXXXXXscore">
+               <scoreDef xml:id="XXXXXXscoreDef" midi.bpm="480">
+                  <staffGrp xml:id="XXXXXXstaffGrp">
+                     <staffDef xml:id="XXXXXXstaffDef" clef.shape="G" clef.line="2" lines="5" key.pname="c" keysig="0" key.mode ="major" n="1" />
+                  </staffGrp>
+               </scoreDef>
+               <section xml:id="XXXXXXsection">
+                  <measure xml:id="XXXXXXmeasure" right="dbl">
+                     <staff xml:id="XXXXXXstaff" n="1">
+                        <layer xml:id="XXXXXXlayer1" n="1">
+                           <note xml:id="XXXXXX1" dur="1" oct="4" pname="c" deg="1" />
+                           <note xml:id="XXXXXX2" dur="1" oct="4" pname="d" deg="2" intm="+M2"/>
+                           <note xml:id="XXXXXX3" dur="1" oct="4" pname="e" deg="3" intm="+M2"/>
+                           <note xml:id="XXXXXX4" dur="1" oct="4" pname="f" deg="4" intm="+m2"/>
+                           <note xml:id="XXXXXX5" dur="1" oct="4" pname="g" deg="5" intm="+M2"/>
+                           <note xml:id="XXXXXX6" dur="1" oct="4" pname="a" deg="6" intm="+M2"/>
+                           <note xml:id="XXXXXX7" dur="1" oct="4" pname="b" deg="7" intm="+M2"/>
+                           <note xml:id="XXXXXX8" dur="1" oct="5" pname="c" deg="1" intm="+m2"/>
+                        </layer>
+                     </staff>
+                     <harm xml:id="XXXXXX1harm" type="degree" startid="#XXXXXX1" place="below">I</harm>
+                     <harm xml:id="XXXXXX2harm" type="degree" startid="#XXXXXX2" place="below">II</harm>
+                     <harm xml:id="XXXXXX3harm" type="degree" startid="#XXXXXX3" place="below">III</harm>
+                     <harm xml:id="XXXXXX4harm" type="degree" startid="#XXXXXX4" place="below">IV</harm>
+                     <harm xml:id="XXXXXX5harm" type="degree" startid="#XXXXXX5" place="below">V</harm>
+                     <harm xml:id="XXXXXX6harm" type="degree" startid="#XXXXXX6" place="below">VI</harm>
+                     <harm xml:id="XXXXXX7harm" type="degree" startid="#XXXXXX7" place="below">VII</harm>
+                     <harm xml:id="XXXXXX8harm" type="degree" startid="#XXXXXX8" place="below">I</harm>
+                  </measure>
+               </section>
+            </score>
+         </mdiv>
+      </body>
+   </music>
+</mei>
+
+<!--
+   USEFUL RESOURCES:
+- Mode list: https://music-encoding.org/guidelines/dev/data-types/data.MODE.gregorian.html
+- Melodic intervals: https://music-encoding.org/guidelines/v5/attribute-classes/att.intervalMelodic.html
+- Harmonic data: https://music-encoding.org/guidelines/dev/elements/harm.html
+-->

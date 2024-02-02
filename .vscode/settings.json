@@ -1,0 +1,58 @@
+{
+    "textmarker.savedHighlights": [
+        {
+            "pattern": {
+                "type": "regex",
+                "expression": "staffDef",
+                "ignoreCase": false,
+                "wholeMatch": false
+            },
+            "color": "darkmagenta"
+        },
+        {
+            "pattern": {
+                "type": "regex",
+                "expression": "XXXXXX",
+                "ignoreCase": false,
+                "wholeMatch": false
+            },
+            "color": "darkred"
+        },
+        {
+            "pattern": {
+                "type": "regex",
+                "expression": "key.mode =",
+                "ignoreCase": false,
+                "wholeMatch": false
+            },
+            "color": "darkblue"
+        },
+        {
+            "pattern": {
+                "type": "regex",
+                "expression": "isodate=\"2024-01-01\"",
+                "ignoreCase": false,
+                "wholeMatch": false
+            },
+            "color": "brown"
+        },
+        {
+            "pattern": {
+                "type": "regex",
+                "expression": "intm",
+                "ignoreCase": false,
+                "wholeMatch": false
+            },
+            "color": "darkslateblue"
+        },
+        {
+            "pattern": {
+                "type": "regex",
+                "expression": "key.pname =",
+                "ignoreCase": false,
+                "wholeMatch": false
+            },
+            "color": "darkgoldenrod"
+        }
+    ]
+}

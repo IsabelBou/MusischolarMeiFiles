@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://music-encoding.org/schema/5.0/mei-all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://music-encoding.org/schema/5.0/mei-all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<mei xmlns="http://www.music-encoding.org/ns/mei" meiversion="5.0">
+   <meiHead>
+      <fileDesc>
+         <titleStmt>
+            <title />
+         </titleStmt>
+         <pubStmt>
+            <date isodate="2024-02-01" />
+         </pubStmt>
+         <seriesStmt>
+            <title>Musischolar files</title>
+         </seriesStmt>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>Equivalente tonal del modo jónico</p>
+         </projectDesc>
+      </encodingDesc>
+      <revisionDesc>
+         <change n="1">
+            <changeDesc>
+               <p>Manual file encoding with melodic intervals between scale notes and relevant harmonics.</p>
+            </changeDesc>
+            <date isodate="2024-02-01"/>
+         </change>
+      </revisionDesc>
+   </meiHead>
+   <music>
+      <body>
+         <mdiv xml:id="EqJonicomdiv">
+            <score xml:id="EqJonicoscore">
+               <scoreDef xml:id="EqJonicoscoreDef" midi.bpm="480">
+                  <staffGrp xml:id="EqJonicostaffGrp">
+                     <staffDef xml:id="EqJonicostaffDef" key.pname="c" keysig="0" key.mode="major" n="1" lines="5" clef.shape="G" clef.line="2" />
+                  </staffGrp>
+               </scoreDef>
+               <section xml:id="EqJonicosection">
+                  <measure xml:id="EqJonicomeasure" right="dbl">
+                     <staff xml:id="EqJonicostaff" n="1">
+                        <layer xml:id="EqJonicolayer1" n="1">
+                           <note xml:id="EqJonico1" dur="1" oct="4" pname="c" deg="1" />
+                           <note xml:id="EqJonico2" dur="1" oct="4" pname="d" deg="2" intm="+M2"/>
+                           <note xml:id="EqJonico3" dur="1" oct="4" pname="e" deg="3" intm="+M2"/>
+                           <note xml:id="EqJonico4" dur="1" oct="4" pname="f" deg="4" intm="+m2"/>
+                           <note xml:id="EqJonico5" dur="1" oct="4" pname="g" deg="5" intm="+M2"/>
+                           <note xml:id="EqJonico6" dur="1" oct="4" pname="a" deg="6" intm="+M2"/>
+                           <note xml:id="EqJonico7" dur="1" oct="4" pname="b" deg="7" intm="+M2"/>
+                           <note xml:id="EqJonico8" dur="1" oct="5" pname="c" deg="1" intm="+m2"/>
+                        </layer>
+                     </staff>
+                     <harm xml:id="EqJonico3deg" type="degree" startid="#EqJonico3" place="below">III</harm>
+                     <harm xml:id="EqJonico7deg" type="degree" startid="#EqJonico7" place="below">VII (sensible)</harm>
+                  </measure>
+               </section>
+            </score>
+         </mdiv>
+      </body>
+   </music>
+</mei>

@@ -34,7 +34,7 @@
             <score xml:id="XXXXXXscore">
                <scoreDef xml:id="XXXXXXscoreDef" midi.bpm="480">
                   <staffGrp xml:id="XXXXXXstaffGrp">
-                     <staffDef xml:id="XXXXXXstaffDef" clef.shape="G" clef.line="2" lines="5" key.pname="c" keysig="0" key.mode ="major" n="1" />
+                     <staffDef xml:id="XXXXXXstaffDef" clef.shape="G" clef.line="2" lines="5" key.pname ="c" keysig="0" key.mode ="major" n="1" />
                   </staffGrp>
                </scoreDef>
                <section xml:id="XXXXXXsection">

@@ -8,7 +8,7 @@
             <title />
          </titleStmt>
          <pubStmt>
-            <date isodate="2024-02-01" />
+            <date isodate="2024-02-03" />
          </pubStmt>
          <seriesStmt>
             <title>Musischolar files</title>
@@ -24,7 +24,7 @@
             <changeDesc>
                <p>Manual file encoding with melodic intervals between scale notes and relevant harmonics .</p>
             </changeDesc>
-            <date isodate="2024-02-01"/>
+            <date isodate="2024-02-03"/>
          </change>
       </revisionDesc>
    </meiHead>
@@ -51,7 +51,14 @@
                            <note xml:id="Jonico8" dur="1" oct="5" pname="c" deg="1" intm="+m2"/>
                         </layer>
                      </staff>
+                     <harm xml:id="Jonico1harm" type="degree" startid="#Jonico1" place="below">I</harm>
+                     <harm xml:id="Jonico2harm" type="degree" startid="#Jonico2" place="below">II</harm>
                      <harm xml:id="Jonico3harm" type="degree" startid="#Jonico3" place="below">III</harm>
+                     <harm xml:id="Jonico4harm" type="degree" startid="#Jonico4" place="below">IV</harm>
+                     <harm xml:id="Jonico5harm" type="degree" startid="#Jonico5" place="below">V</harm>
+                     <harm xml:id="Jonico6harm" type="degree" startid="#Jonico6" place="below">VI</harm>
+                     <harm xml:id="Jonico7harm" type="degree" startid="#Jonico7" place="below">VII</harm>
+                     <harm xml:id="Jonico8harm" type="degree" startid="#Jonico8" place="below">I</harm>
                   </measure>
                </section>
             </score>

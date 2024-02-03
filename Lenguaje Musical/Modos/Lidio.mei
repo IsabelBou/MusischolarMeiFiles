@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://music-encoding.org/schema/5.0/mei-all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://music-encoding.org/schema/5.0/mei-all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<mei xmlns="http://www.music-encoding.org/ns/mei" meiversion="5.0">
+   <meiHead>
+      <fileDesc>
+         <titleStmt>
+            <title />
+         </titleStmt>
+         <pubStmt>
+            <date isodate="2024-02-03" />
+         </pubStmt>
+         <seriesStmt>
+            <title>Musischolar files</title>
+         </seriesStmt>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>Lidio</p>
+         </projectDesc>
+      </encodingDesc>
+      <revisionDesc>
+         <change n="1">
+            <changeDesc>
+               <p>Manual file encoding with melodic intervals between scale notes and relevant harmonics .</p>
+            </changeDesc>
+            <date isodate="2024-02-03"/>
+         </change>
+      </revisionDesc>
+   </meiHead>
+   <music>
+      <body>
+         <mdiv xml:id="Lidiomdiv">
+            <score xml:id="Lidioscore">
+               <scoreDef xml:id="LidioscoreDef" midi.bpm="480">
+                  <staffGrp xml:id="LidiostaffGrp">
+                     <staffDef xml:id="LidiostaffDef" clef.shape="G" clef.line="2" lines="5" key.pname="f" keysig="0" key.mode="lydian" n="1" />
+                  </staffGrp>
+               </scoreDef>
+               <section xml:id="Lidiosection">
+                  <measure xml:id="Lidiomeasure" right="dbl">
+                     <staff xml:id="Lidiostaff" n="1">
+                        <layer xml:id="Lidiolayer1" n="1">
+                           <note xml:id="Lidio1" dur="1" oct="4" pname="f" deg="1" />
+                           <note xml:id="Lidio2" dur="1" oct="4" pname="g" deg="2" intm="+M2"/>
+                           <note xml:id="Lidio3" dur="1" oct="4" pname="a" deg="3" intm="+M2"/>
+                           <note xml:id="Lidio4" dur="1" oct="4" pname="b" deg="4" intm="+M2"/>
+                           <note xml:id="Lidio5" dur="1" oct="5" pname="c" deg="5" intm="+m2"/>
+                           <note xml:id="Lidio6" dur="1" oct="5" pname="d" deg="6" intm="+M2"/>
+                           <note xml:id="Lidio7" dur="1" oct="5" pname="e" deg="7" intm="+M2"/>
+                           <note xml:id="Lidio8" dur="1" oct="5" pname="f" deg="1" intm="+m2"/>
+                        </layer>
+                     </staff>
+                     <harm xml:id="Lidio1harm" type="degree" startid="#Lidio1" place="below">I</harm>
+                     <harm xml:id="Lidio2harm" type="degree" startid="#Lidio2" place="below">II</harm>
+                     <harm xml:id="Lidio3harm" type="degree" startid="#Lidio3" place="below">III</harm>
+                     <harm xml:id="Lidio4harm" type="degree" startid="#Lidio4" place="below">IV</harm>
+                     <harm xml:id="Lidio5harm" type="degree" startid="#Lidio5" place="below">V</harm>
+                     <harm xml:id="Lidio6harm" type="degree" startid="#Lidio6" place="below">VI</harm>
+                     <harm xml:id="Lidio7harm" type="degree" startid="#Lidio7" place="below">VII</harm>
+                     <harm xml:id="Lidio8harm" type="degree" startid="#Lidio8" place="below">I</harm>
+                  </measure>
+               </section>
+            </score>
+         </mdiv>
+      </body>
+   </music>
+</mei>

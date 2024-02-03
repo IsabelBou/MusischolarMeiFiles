@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://music-encoding.org/schema/5.0/mei-all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://music-encoding.org/schema/5.0/mei-all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<mei xmlns="http://www.music-encoding.org/ns/mei" meiversion="5.0">
+   <meiHead>
+      <fileDesc>
+         <titleStmt>
+            <title />
+         </titleStmt>
+         <pubStmt>
+            <date isodate="2024-02-03" />
+         </pubStmt>
+         <seriesStmt>
+            <title>Musischolar files</title>
+         </seriesStmt>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>Locrio</p>
+         </projectDesc>
+      </encodingDesc>
+      <revisionDesc>
+         <change n="1">
+            <changeDesc>
+               <p>Manual file encoding with melodic intervals between scale notes and relevant harmonics .</p>
+            </changeDesc>
+            <date isodate="2024-02-03"/>
+         </change>
+      </revisionDesc>
+   </meiHead>
+   <music>
+      <body>
+         <mdiv xml:id="Locriomdiv">
+            <score xml:id="Locrioscore">
+               <scoreDef xml:id="LocrioscoreDef" midi.bpm="480">
+                  <staffGrp xml:id="LocriostaffGrp">
+                     <staffDef xml:id="LocriostaffDef" clef.shape="G" clef.line="2" lines="5" key.pname="b" keysig="0" key.mode="locrian" n="1" />
+                  </staffGrp>
+               </scoreDef>
+               <section xml:id="Locriosection">
+                  <measure xml:id="Locriomeasure" right="dbl">
+                     <staff xml:id="Locriostaff" n="1">
+                        <layer xml:id="Locriolayer1" n="1">
+                           <note xml:id="Locrio1" dur="1" oct="3" pname="b" deg="1" />
+                           <note xml:id="Locrio2" dur="1" oct="4" pname="c" deg="2" intm="+m2"/>
+                           <note xml:id="Locrio3" dur="1" oct="4" pname="d" deg="3" intm="+M2"/>
+                           <note xml:id="Locrio4" dur="1" oct="4" pname="e" deg="4" intm="+M2"/>
+                           <note xml:id="Locrio5" dur="1" oct="4" pname="f" deg="5" intm="+m2"/>
+                           <note xml:id="Locrio6" dur="1" oct="4" pname="g" deg="6" intm="+M2"/>
+                           <note xml:id="Locrio7" dur="1" oct="4" pname="a" deg="7" intm="+M2"/>
+                           <note xml:id="Locrio8" dur="1" oct="4" pname="b" deg="1" intm="+M2"/>
+                        </layer>
+                     </staff>
+                     <harm xml:id="Locrio1harm" type="degree" startid="#Locrio1" place="below">I</harm>
+                     <harm xml:id="Locrio2harm" type="degree" startid="#Locrio2" place="below">II</harm>
+                     <harm xml:id="Locrio3harm" type="degree" startid="#Locrio3" place="below">III</harm>
+                     <harm xml:id="Locrio4harm" type="degree" startid="#Locrio4" place="below">IV</harm>
+                     <harm xml:id="Locrio5harm" type="degree" startid="#Locrio5" place="below">V</harm>
+                     <harm xml:id="Locrio6harm" type="degree" startid="#Locrio6" place="below">VI</harm>
+                     <harm xml:id="Locrio7harm" type="degree" startid="#Locrio7" place="below">VII</harm>
+                     <harm xml:id="Locrio8harm" type="degree" startid="#Locrio8" place="below">I</harm>
+                  </measure>
+               </section>
+            </score>
+         </mdiv>
+      </body>
+   </music>
+</mei>

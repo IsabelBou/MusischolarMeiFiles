@@ -48,7 +48,7 @@
                            <note xml:id="XXXXXX5" dur="1" oct="4" pname="g" deg="5" intm="+M2"/>
                            <note xml:id="XXXXXX6" dur="1" oct="4" pname="a" deg="6" intm="+M2"/>
                            <note xml:id="XXXXXX7" dur="1" oct="4" pname="b" deg="7" intm="+M2"/>
-                           <note xml:id="XXXXXX8" dur="1" oct="5" pname="c" deg="1" intm="+m2"/>
+                           <note xml:id="XXXXXX8" dur="1" oct ="5" pname ="c" deg="1" intm ="+m2"/>
                         </layer>
                      </staff>
                      <harm xml:id="XXXXXX1harm" type="degree" startid="#XXXXXX1" place="below">I</harm>

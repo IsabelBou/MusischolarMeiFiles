@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://music-encoding.org/schema/5.0/mei-all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://music-encoding.org/schema/5.0/mei-all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<mei xmlns="http://www.music-encoding.org/ns/mei" meiversion="5.0">
+   <meiHead>
+      <fileDesc>
+         <titleStmt>
+            <title />
+         </titleStmt>
+         <pubStmt>
+            <date isodate="2024-02-03" />
+         </pubStmt>
+         <seriesStmt>
+            <title>Musischolar files</title>
+         </seriesStmt>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>Frigio</p>
+         </projectDesc>
+      </encodingDesc>
+      <revisionDesc>
+         <change n="1">
+            <changeDesc>
+               <p>Manual file encoding with melodic intervals between scale notes and relevant harmonics .</p>
+            </changeDesc>
+            <date isodate="2024-02-03"/>
+         </change>
+      </revisionDesc>
+   </meiHead>
+   <music>
+      <body>
+         <mdiv xml:id="Frigiomdiv">
+            <score xml:id="Frigioscore">
+               <scoreDef xml:id="FrigioscoreDef" midi.bpm="480">
+                  <staffGrp xml:id="FrigiostaffGrp">
+                     <staffDef xml:id="FrigiostaffDef" clef.shape="G" clef.line="2" lines="5" key.pname="e" keysig="0" key.mode="phrygian" n="1" />
+                  </staffGrp>
+               </scoreDef>
+               <section xml:id="Frigiosection">
+                  <measure xml:id="Frigiomeasure" right="dbl">
+                     <staff xml:id="Frigiostaff" n="1">
+                        <layer xml:id="Frigiolayer1" n="1">
+                           <note xml:id="Frigio1" dur="1" oct="4" pname="e" deg="1" />
+                           <note xml:id="Frigio2" dur="1" oct="4" pname="f" deg="2" intm="+m2"/>
+                           <note xml:id="Frigio3" dur="1" oct="4" pname="g" deg="3" intm="+M2"/>
+                           <note xml:id="Frigio4" dur="1" oct="4" pname="a" deg="4" intm="+M2"/>
+                           <note xml:id="Frigio5" dur="1" oct="4" pname="b" deg="5" intm="+M2"/>
+                           <note xml:id="Frigio6" dur="1" oct="5" pname="c" deg="6" intm="+m2"/>
+                           <note xml:id="Frigio7" dur="1" oct="5" pname="d" deg="7" intm="+M2"/>
+                           <note xml:id="Frigio8" dur="1" oct="5" pname="e" deg="1" intm="+M2"/>
+                        </layer>
+                     </staff>
+                     <harm xml:id="Frigio1harm" type="degree" startid="#Frigio1" place="below">I</harm>
+                     <harm xml:id="Frigio2harm" type="degree" startid="#Frigio2" place="below">II</harm>
+                     <harm xml:id="Frigio3harm" type="degree" startid="#Frigio3" place="below">III</harm>
+                     <harm xml:id="Frigio4harm" type="degree" startid="#Frigio4" place="below">IV</harm>
+                     <harm xml:id="Frigio5harm" type="degree" startid="#Frigio5" place="below">V</harm>
+                     <harm xml:id="Frigio6harm" type="degree" startid="#Frigio6" place="below">VI</harm>
+                     <harm xml:id="Frigio7harm" type="degree" startid="#Frigio7" place="below">VII</harm>
+                     <harm xml:id="Frigio8harm" type="degree" startid="#Frigio8" place="below">I</harm>
+                  </measure>
+               </section>
+            </score>
+         </mdiv>
+      </body>
+   </music>
+</mei>

@@ -66,14 +66,14 @@ Currently, the main objective is to store Musical Language and Harmony classes' 
       - [ ] Tonos enteros
       - [ ] Mayor
       - [ ] Menor
-  - [ ] Modos
-    - [ ] Jónico
-    - [ ] Dórico
-    - [ ] Frigio
-    - [ ] Lidio
-    - [ ] Mixolidio
-    - [ ] Eólico
-    - [ ] Locrio
+  - [ ] Modos ( + equivalente tonal pendiente)
+    - [x] Jónico
+    - [x] Dórico
+    - [x] Frigio
+    - [x] Lidio
+    - [x] Mixolidio
+    - [x] Eólico
+    - [x] Locrio
   - [ ] Cifrado
     - [ ] Americano
     - [ ] Tríadas
@@ -114,9 +114,10 @@ Currently, the main objective is to store Musical Language and Harmony classes' 
 - [ ] Armonía
   - [ ] Ámbito coral
   - [ ] Reglas básicas
-  - [ ] Funcion tonal
+  - [ ] Función tonal
   - [ ] Primera inversión
   - [ ] Series de sextas
+  - [ ] Séptima de Dominante
   - [ ] Cadencias
     - [ ] Conclusivas
       - [ ] Perfecta

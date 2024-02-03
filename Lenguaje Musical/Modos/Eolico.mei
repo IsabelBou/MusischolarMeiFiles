@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://music-encoding.org/schema/5.0/mei-all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://music-encoding.org/schema/5.0/mei-all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<mei xmlns="http://www.music-encoding.org/ns/mei" meiversion="5.0">
+   <meiHead>
+      <fileDesc>
+         <titleStmt>
+            <title />
+         </titleStmt>
+         <pubStmt>
+            <date isodate="2024-02-03" />
+         </pubStmt>
+         <seriesStmt>
+            <title>Musischolar files</title>
+         </seriesStmt>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>Eolico</p>
+         </projectDesc>
+      </encodingDesc>
+      <revisionDesc>
+         <change n="1">
+            <changeDesc>
+               <p>Manual file encoding with melodic intervals between scale notes and relevant harmonics .</p>
+            </changeDesc>
+            <date isodate="2024-02-03"/>
+         </change>
+      </revisionDesc>
+   </meiHead>
+   <music>
+      <body>
+         <mdiv xml:id="Eolicomdiv">
+            <score xml:id="Eolicoscore">
+               <scoreDef xml:id="EolicoscoreDef" midi.bpm="480">
+                  <staffGrp xml:id="EolicostaffGrp">
+                     <staffDef xml:id="EolicostaffDef" clef.shape="G" clef.line="2" lines="5" key.pname="a" keysig="0" key.mode="aeolian" n="1" />
+                  </staffGrp>
+               </scoreDef>
+               <section xml:id="Eolicosection">
+                  <measure xml:id="Eolicomeasure" right="dbl">
+                     <staff xml:id="Eolicostaff" n="1">
+                        <layer xml:id="Eolicolayer1" n="1">
+                           <note xml:id="Eolico1" dur="1" oct="4" pname="a" deg="1" />
+                           <note xml:id="Eolico2" dur="1" oct="4" pname="b" deg="2" intm="+M2"/>
+                           <note xml:id="Eolico3" dur="1" oct="5" pname="c" deg="3" intm="+m2"/>
+                           <note xml:id="Eolico4" dur="1" oct="5" pname="d" deg="4" intm="+M2"/>
+                           <note xml:id="Eolico5" dur="1" oct="5" pname="e" deg="5" intm="+M2"/>
+                           <note xml:id="Eolico6" dur="1" oct="5" pname="f" deg="6" intm="+m2"/>
+                           <note xml:id="Eolico7" dur="1" oct="5" pname="g" deg="7" intm="+M2"/>
+                           <note xml:id="Eolico8" dur="1" oct="5" pname="a" deg="1" intm="+M2"/>
+                        </layer>
+                     </staff>
+                     <harm xml:id="Eolico1harm" type="degree" startid="#Eolico1" place="below">I</harm>
+                     <harm xml:id="Eolico2harm" type="degree" startid="#Eolico2" place="below">II</harm>
+                     <harm xml:id="Eolico3harm" type="degree" startid="#Eolico3" place="below">III</harm>
+                     <harm xml:id="Eolico4harm" type="degree" startid="#Eolico4" place="below">IV</harm>
+                     <harm xml:id="Eolico5harm" type="degree" startid="#Eolico5" place="below">V</harm>
+                     <harm xml:id="Eolico6harm" type="degree" startid="#Eolico6" place="below">VI</harm>
+                     <harm xml:id="Eolico7harm" type="degree" startid="#Eolico7" place="below">VII</harm>
+                     <harm xml:id="Eolico8harm" type="degree" startid="#Eolico8" place="below">I</harm>
+                  </measure>
+               </section>
+            </score>
+         </mdiv>
+      </body>
+   </music>
+</mei>

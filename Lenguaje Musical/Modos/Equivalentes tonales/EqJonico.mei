@@ -51,8 +51,14 @@
                            <note xml:id="EqJonico8" dur="1" oct="5" pname="c" deg="1" intm="+m2"/>
                         </layer>
                      </staff>
-                     <harm xml:id="EqJonico3deg" type="degree" startid="#EqJonico3" place="below">III</harm>
-                     <harm xml:id="EqJonico7deg" type="degree" startid="#EqJonico7" place="below">VII (sensible)</harm>
+                     <harm xml:id="EqJonico1harm" type="degree" startid="#EqJonico1" place="below">I</harm>
+                     <harm xml:id="EqJonico2harm" type="degree" startid="#EqJonico2" place="below">II</harm>
+                     <harm xml:id="EqJonico3harm" type="degree" startid="#EqJonico3" place="below">III</harm>
+                     <harm xml:id="EqJonico4harm" type="degree" startid="#EqJonico4" place="below">IV</harm>
+                     <harm xml:id="EqJonico5harm" type="degree" startid="#EqJonico5" place="below">V</harm>
+                     <harm xml:id="EqJonico6harm" type="degree" startid="#EqJonico6" place="below">VI</harm>
+                     <harm xml:id="EqJonico7harm" type="degree" startid="#EqJonico7" place="below">VII</harm>
+                     <harm xml:id="EqJonico8harm" type="degree" startid="#EqJonico8" place="below">I</harm>
                   </measure>
                </section>
             </score>

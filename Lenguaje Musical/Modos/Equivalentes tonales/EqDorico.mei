@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://music-encoding.org/schema/5.0/mei-all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://music-encoding.org/schema/5.0/mei-all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<mei xmlns="http://www.music-encoding.org/ns/mei" meiversion="5.0">
+   <meiHead>
+      <fileDesc>
+         <titleStmt>
+            <title />
+         </titleStmt>
+         <pubStmt>
+            <date isodate="2024-02-09" />
+         </pubStmt>
+         <seriesStmt>
+            <title>Musischolar files</title>
+         </seriesStmt>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>EqDorico</p>
+         </projectDesc>
+      </encodingDesc>
+      <revisionDesc>
+         <change n="1">
+            <changeDesc>
+               <p>Manual file encoding with melodic intervals between scale notes and relevant harmonics .</p>
+            </changeDesc>
+            <date isodate="2024-02-09"/>
+         </change>
+      </revisionDesc>
+   </meiHead>
+   <music>
+      <body>
+         <mdiv xml:id="EqDoricomdiv">
+            <score xml:id="EqDoricoscore">
+               <scoreDef xml:id="EqDoricoscoreDef" midi.bpm="480">
+                  <staffGrp xml:id="EqDoricostaffGrp">
+                     <staffDef xml:id="EqDoricostaffDef" clef.shape="G" clef.line="2" lines="5" key.pname="d" keysig="1f" key.mode="minor" n="1" />
+                  </staffGrp>
+               </scoreDef>
+               <section xml:id="EqDoricosection">
+                  <measure xml:id="EqDoricomeasure" right="dbl">
+                     <staff xml:id="EqDoricostaff" n="1">
+                        <layer xml:id="EqDoricolayer1" n="1">
+                           <note xml:id="EqDorico1" dur="1" oct="4" pname="d" deg="1" />
+                           <note xml:id="EqDorico2" dur="1" oct="4" pname="e" deg="2" intm="+M2"/>
+                           <note xml:id="EqDorico3" dur="1" oct="4" pname="f" deg="3" intm="+m2"/>
+                           <note xml:id="EqDorico4" dur="1" oct="4" pname="g" deg="4" intm="+M2"/>
+                           <note xml:id="EqDorico5" dur="1" oct="4" pname="a" deg="5" intm="+M2"/>
+                           <note xml:id="EqDorico6" dur="1" oct="4" pname="b" deg="6" intm="+M2" type="higher" accid="n"/>
+                           <note xml:id="EqDorico7" dur="1" oct="5" pname="c" deg="7" intm="+m2"/>
+                           <note xml:id="EqDorico8" dur="1" oct="5" pname="d" deg="1" intm="+M2"/>
+                        </layer>
+                     </staff>
+                     <harm xml:id="EqDorico6harm" type="degree" startid="#EqDorico6" place="below">VI</harm>
+                  </measure>
+               </section>
+            </score>
+         </mdiv>
+      </body>
+   </music>
+</mei>

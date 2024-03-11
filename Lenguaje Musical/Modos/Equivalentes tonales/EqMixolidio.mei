@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://music-encoding.org/schema/5.0/mei-all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://music-encoding.org/schema/5.0/mei-all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<mei xmlns="http://www.music-encoding.org/ns/mei" meiversion="5.0">
+   <meiHead>
+      <fileDesc>
+         <titleStmt>
+            <title />
+         </titleStmt>
+         <pubStmt>
+            <date isodate="2024-03-11" />
+         </pubStmt>
+         <seriesStmt>
+            <title>Musischolar files</title>
+         </seriesStmt>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>EqMixolidio</p>
+         </projectDesc>
+      </encodingDesc>
+      <revisionDesc>
+         <change n="1">
+            <changeDesc>
+               <p>Manual file encoding with melodic intervals between scale notes and relevant harmonics.</p>
+            </changeDesc>
+            <date isodate="2024-03-11"/>
+         </change>
+      </revisionDesc>
+   </meiHead>
+   <music>
+      <body>
+         <mdiv xml:id="EqMixolidiomdiv">
+            <score xml:id="EqMixolidioscore">
+               <scoreDef xml:id="EqMixolidioscoreDef" midi.bpm="480">
+                  <staffGrp xml:id="EqMixolidiostaffGrp">
+                     <staffDef xml:id="EqMixolidiostaffDef" clef.shape="G" clef.line="2" lines="5" key.pname="g" keysig="1s" key.mode="major" n="1" />
+                  </staffGrp>
+               </scoreDef>
+               <section xml:id="EqMixolidiosection">
+                  <measure xml:id="EqMixolidiomeasure" right="dbl">
+                     <staff xml:id="EqMixolidiostaff" n="1">
+                        <layer xml:id="EqMixolidiolayer1" n="1">
+                           <note xml:id="EqMixolidio1" dur="1" oct="4" pname="g" deg="1" />
+                           <note xml:id="EqMixolidio2" dur="1" oct="4" pname="a" deg="2" intm="+M2"/>
+                           <note xml:id="EqMixolidio3" dur="1" oct="4" pname="b" deg="3" intm="+M2"/>
+                           <note xml:id="EqMixolidio4" dur="1" oct="5" pname="c" deg="4" intm="+m2"/>
+                           <note xml:id="EqMixolidio5" dur="1" oct="5" pname="d" deg="5" intm="+M2"/>
+                           <note xml:id="EqMixolidio6" dur="1" oct="5" pname="e" deg="6" intm="+M2"/>
+                           <note xml:id="EqMixolidio7" dur="1" oct="5" pname="f" deg="7" intm="+m2" type="lower" accid="n"/>
+                           <note xml:id="EqMixolidio8" dur="1" oct="5" pname="g" deg="1" intm="+M2"/>
+                        </layer>
+                     </staff>
+                     <harm xml:id="EqMixolidio7harm" type="degree" startid="#EqMixolidio7" place="below">VII</harm>
+                  </measure>
+               </section>
+            </score>
+         </mdiv>
+      </body>
+   </music>
+</mei>

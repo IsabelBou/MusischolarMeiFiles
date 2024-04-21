@@ -22,9 +22,15 @@
       <revisionDesc>
          <change n="1">
             <changeDesc>
-               <p>Manual file encoding with melodic intervals between scale notes and relevant harmonics .</p>
+               <p>Manual file encoding with melodic intervals between scale notes and relevant harmonics.</p>
             </changeDesc>
             <date isodate="2024-02-03"/>
+         </change>
+         <change n="2">
+            <changeDesc>
+               <p>Removal of unnecessary degrees</p>
+            </changeDesc>
+            <date isodate="2024-04-21"/>
          </change>
       </revisionDesc>
    </meiHead>
@@ -51,14 +57,7 @@
                            <note xml:id="Dorico8" dur="1" oct="5" pname="d" deg="1" intm="+M2"/>
                         </layer>
                      </staff>
-                     <harm xml:id="Dorico1harm" type="degree" startid="#Dorico1" place="below">I</harm>
                      <harm xml:id="Dorico2harm" type="degree" startid="#Dorico2" place="below">II</harm>
-                     <harm xml:id="Dorico3harm" type="degree" startid="#Dorico3" place="below">III</harm>
-                     <harm xml:id="Dorico4harm" type="degree" startid="#Dorico4" place="below">IV</harm>
-                     <harm xml:id="Dorico5harm" type="degree" startid="#Dorico5" place="below">V</harm>
-                     <harm xml:id="Dorico6harm" type="degree" startid="#Dorico6" place="below">VI</harm>
-                     <harm xml:id="Dorico7harm" type="degree" startid="#Dorico7" place="below">VII</harm>
-                     <harm xml:id="Dorico8harm" type="degree" startid="#Dorico8" place="below">I</harm>
                   </measure>
                </section>
             </score>

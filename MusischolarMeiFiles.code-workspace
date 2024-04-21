@@ -27,6 +27,24 @@
 			{
 				"pattern": {
 					"type": "regex",
+					"expression": "ZZZZ",
+					"ignoreCase": false,
+					"wholeMatch": false
+				},
+				"color": "darkred"
+			},
+			{
+				"pattern": {
+					"type": "regex",
+					"expression": "YYYY",
+					"ignoreCase": false,
+					"wholeMatch": false
+				},
+				"color": "darkred"
+			},
+			{
+				"pattern": {
+					"type": "regex",
 					"expression": "key.mode =",
 					"ignoreCase": false,
 					"wholeMatch": false
@@ -64,6 +82,24 @@
 				"pattern": {
 					"type": "regex",
 					"expression": " pname =",
+					"ignoreCase": false,
+					"wholeMatch": false
+				},
+				"color": "darkblue"
+			},
+			{
+				"pattern": {
+					"type": "regex",
+					"expression": " deg =",
+					"ignoreCase": false,
+					"wholeMatch": false
+				},
+				"color": "darkblue"
+			},
+			{
+				"pattern": {
+					"type": "regex",
+					"expression": " deg =",
 					"ignoreCase": false,
 					"wholeMatch": false
 				},

@@ -32,6 +32,12 @@
             </changeDesc>
             <date isodate="2024-04-21"/>
          </change>
+         <change n="3">
+            <changeDesc>
+               <p>Correction of displayed degrees</p>
+            </changeDesc>
+            <date isodate="2024-06-07"/>
+         </change>
       </revisionDesc>
    </meiHead>
    <music>
@@ -57,7 +63,7 @@
                            <note xml:id="Dorico8" dur="1" oct="5" pname="d" deg="1" intm="+M2"/>
                         </layer>
                      </staff>
-                     <harm xml:id="Dorico2harm" type="degree" startid="#Dorico2" place="below">II</harm>
+                     <harm xml:id="Dorico6harm" type="degree" startid="#Dorico6" place="below">VI</harm>
                   </measure>
                </section>
             </score>

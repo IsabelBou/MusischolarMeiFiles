@@ -22,9 +22,15 @@
       <revisionDesc>
          <change n="1">
             <changeDesc>
-               <p>Manual file encoding with melodic intervals between scale notes and relevant harmonics .</p>
+               <p>Manual file encoding with melodic intervals between scale notes and relevant harmonics.</p>
             </changeDesc>
             <date isodate="2024-02-03"/>
+         </change>
+         <change n="2">
+            <changeDesc>
+               <p>Correction of displayed degrees</p>
+            </changeDesc>
+            <date isodate="2024-06-07"/>
          </change>
       </revisionDesc>
    </meiHead>
@@ -51,14 +57,7 @@
                            <note xml:id="Frigio8" dur="1" oct="5" pname="e" deg="1" intm="+M2"/>
                         </layer>
                      </staff>
-                     <harm xml:id="Frigio1harm" type="degree" startid="#Frigio1" place="below">I</harm>
                      <harm xml:id="Frigio2harm" type="degree" startid="#Frigio2" place="below">II</harm>
-                     <harm xml:id="Frigio3harm" type="degree" startid="#Frigio3" place="below">III</harm>
-                     <harm xml:id="Frigio4harm" type="degree" startid="#Frigio4" place="below">IV</harm>
-                     <harm xml:id="Frigio5harm" type="degree" startid="#Frigio5" place="below">V</harm>
-                     <harm xml:id="Frigio6harm" type="degree" startid="#Frigio6" place="below">VI</harm>
-                     <harm xml:id="Frigio7harm" type="degree" startid="#Frigio7" place="below">VII</harm>
-                     <harm xml:id="Frigio8harm" type="degree" startid="#Frigio8" place="below">I</harm>
                   </measure>
                </section>
             </score>

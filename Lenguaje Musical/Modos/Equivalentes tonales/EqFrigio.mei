@@ -43,7 +43,7 @@
                         <layer xml:id="EqFrigiolayer1" n="1">
                            <note xml:id="EqFrigio1" dur="1" oct="4" pname="e" deg="1" />
                            <note xml:id="EqFrigio2" dur="1" oct="4" pname="f" deg="2" intm="+m2" type="lower" accid="n"/>
-                           <note xml:id="EqFrigio3" dur="1" oct="4" pname="g" deg="3" intm="+M2"/>
+                           <note xml:id="EqFrigio3" dur="1" oct="4" pname="g" deg="3-" intm="+M2"/>
                            <note xml:id="EqFrigio4" dur="1" oct="4" pname="a" deg="4" intm="+M2"/>
                            <note xml:id="EqFrigio5" dur="1" oct="4" pname="b" deg="5" intm="+M2"/>
                            <note xml:id="EqFrigio6" dur="1" oct="5" pname="c" deg="6" intm="+m2"/>

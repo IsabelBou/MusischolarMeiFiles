@@ -53,7 +53,7 @@
                            <note xml:id="Mixolidio4" dur="1" oct="5" pname="c" deg="4" intm="+m2"/>
                            <note xml:id="Mixolidio5" dur="1" oct="5" pname="d" deg="5" intm="+M2"/>
                            <note xml:id="Mixolidio6" dur="1" oct="5" pname="e" deg="6" intm="+M2"/>
-                           <note xml:id="Mixolidio7" dur="1" oct="5" pname="f" deg="7" intm="+m2"/>
+                           <note xml:id="Mixolidio7" dur="1" oct="5" pname="f" deg="7-" intm="+m2"/>
                            <note xml:id="Mixolidio8" dur="1" oct="5" pname="g" deg="1" intm="+M2"/>
                         </layer>
                      </staff>

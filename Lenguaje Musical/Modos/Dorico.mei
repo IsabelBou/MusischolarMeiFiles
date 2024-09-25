@@ -58,7 +58,7 @@
                            <note xml:id="Dorico3" dur="1" oct="4" pname="f" deg="3" intm="+m2"/>
                            <note xml:id="Dorico4" dur="1" oct="4" pname="g" deg="4" intm="+M2"/>
                            <note xml:id="Dorico5" dur="1" oct="4" pname="a" deg="5" intm="+M2"/>
-                           <note xml:id="Dorico6" dur="1" oct="4" pname="b" deg="6" intm="+M2"/>
+                           <note xml:id="Dorico6" dur="1" oct="4" pname="b" deg="6+" intm="+M2"/>
                            <note xml:id="Dorico7" dur="1" oct="5" pname="c" deg="7" intm="+m2"/>
                            <note xml:id="Dorico8" dur="1" oct="5" pname="d" deg="1" intm="+M2"/>
                         </layer>

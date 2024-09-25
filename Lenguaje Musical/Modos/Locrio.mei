@@ -48,10 +48,10 @@
                      <staff xml:id="Locriostaff" n="1">
                         <layer xml:id="Locriolayer1" n="1">
                            <note xml:id="Locrio1" dur="1" oct="3" pname="b" deg="1" />
-                           <note xml:id="Locrio2" dur="1" oct="4" pname="c" deg="2" intm="+m2"/>
+                           <note xml:id="Locrio2" dur="1" oct="4" pname="c" deg="2-" intm="+m2"/>
                            <note xml:id="Locrio3" dur="1" oct="4" pname="d" deg="3" intm="+M2"/>
                            <note xml:id="Locrio4" dur="1" oct="4" pname="e" deg="4" intm="+M2"/>
-                           <note xml:id="Locrio5" dur="1" oct="4" pname="f" deg="5" intm="+m2"/>
+                           <note xml:id="Locrio5" dur="1" oct="4" pname="f" deg="5-" intm="+m2"/>
                            <note xml:id="Locrio6" dur="1" oct="4" pname="g" deg="6" intm="+M2"/>
                            <note xml:id="Locrio7" dur="1" oct="4" pname="a" deg="7" intm="+M2"/>
                            <note xml:id="Locrio8" dur="1" oct="4" pname="b" deg="1" intm="+M2"/>

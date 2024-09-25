@@ -46,7 +46,7 @@
                            <note xml:id="EqDorico3" dur="1" oct="4" pname="f" deg="3" intm="+m2"/>
                            <note xml:id="EqDorico4" dur="1" oct="4" pname="g" deg="4" intm="+M2"/>
                            <note xml:id="EqDorico5" dur="1" oct="4" pname="a" deg="5" intm="+M2"/>
-                           <note xml:id="EqDorico6" dur="1" oct="4" pname="b" deg="6" intm="+M2" type="higher" accid="n"/>
+                           <note xml:id="EqDorico6" dur="1" oct="4" pname="b" deg="6+" intm="+M2" type="higher" accid="n"/>
                            <note xml:id="EqDorico7" dur="1" oct="5" pname="c" deg="7" intm="+m2"/>
                            <note xml:id="EqDorico8" dur="1" oct="5" pname="d" deg="1" intm="+M2"/>
                         </layer>

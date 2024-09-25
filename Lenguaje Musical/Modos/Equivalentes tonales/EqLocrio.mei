@@ -42,10 +42,10 @@
                      <staff xml:id="EqLocriostaff" n="1">
                         <layer xml:id="EqLocriolayer1" n="1">
                            <note xml:id="EqLocrio1" dur="1" oct="3" pname="b" deg="1" />
-                           <note xml:id="EqLocrio2" dur="1" oct="4" pname="c" deg="2" intm="+m2" type="lower" accid="n"/>
+                           <note xml:id="EqLocrio2" dur="1" oct="4" pname="c" deg="2-" intm="+m2" type="lower" accid="n"/>
                            <note xml:id="EqLocrio3" dur="1" oct="4" pname="d" deg="3" intm="+M2"/>
                            <note xml:id="EqLocrio4" dur="1" oct="4" pname="e" deg="4" intm="+M2"/>
-                           <note xml:id="EqLocrio5" dur="1" oct="4" pname="f" deg="5" intm="+m2" type="lower" accid="n"/>
+                           <note xml:id="EqLocrio5" dur="1" oct="4" pname="f" deg="5-" intm="+m2" type="lower" accid="n"/>
                            <note xml:id="EqLocrio6" dur="1" oct="4" pname="g" deg="6" intm="+M2"/>
                            <note xml:id="EqLocrio7" dur="1" oct="4" pname="a" deg="7" intm="+M2"/>
                            <note xml:id="EqLocrio8" dur="1" oct="4" pname="b" deg="1" intm="+M2"/>

@@ -56,7 +56,7 @@ Currently, the main objective is to store Musical Language and Harmony classes' 
       - [x] Mayor
       - [ ] Mixta princial
       - [ ] Mixta secundaria
-      - [ ] Menor
+      - [x] Menor
       - [ ] Armónica
       - [ ] Melódica
     - [ ] Pentáfonas
@@ -66,7 +66,7 @@ Currently, the main objective is to store Musical Language and Harmony classes' 
       - [ ] Tonos enteros
       - [ ] Mayor
       - [ ] Menor
-  - [ ] Modos ( + equivalente tonal pendiente)
+  - [x] Modos ( + equivalente tonal)
     - [x] Jónico
     - [x] Dórico
     - [x] Frigio
@@ -93,6 +93,12 @@ Currently, the main objective is to store Musical Language and Harmony classes' 
       - [ ] 2ª
       - [ ] 3ª
   - [ ] Especie de acordes por grado y tonalidad
+      - [x] Tonalidad Mayor
+      - [ ] Tonalidad Menor
+      - [ ] Grados con acordes mayores
+      - [ ] Grados con acordes menores
+      - [ ] Grados con acordes disminuidos
+      - [ ] Grados con acordes aumentados
   - [ ] Relación entre tonalidades
   - [ ] Figuras rítmicas por tipo (en compases binarios, ternarios e irregulares, y excedentes, deficientes y en varios pulsos)
     - [ ] Dosillo

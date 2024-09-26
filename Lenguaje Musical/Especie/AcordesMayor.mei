@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://music-encoding.org/schema/5.0/mei-all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://music-encoding.org/schema/5.0/mei-all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<mei xmlns="http://www.music-encoding.org/ns/mei" meiversion="5.0">
+<meiHead>
+      <fileDesc>
+         <titleStmt>
+            <title />
+         </titleStmt>
+         <pubStmt>
+            <date isodate="2024-09-26" />
+         </pubStmt>
+         <seriesStmt>
+            <title>Musischolar files</title>
+         </seriesStmt>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>Especie de acordes según tonalidad</p>
+         </projectDesc>
+      </encodingDesc>
+      <revisionDesc>
+         <change n="1">
+            <changeDesc>
+               <p>Manual file encoding. </p>
+            </changeDesc>
+            <date isodate="2024-09-26"/>
+         </change>
+      </revisionDesc>
+   </meiHead>
+   <music>
+      <body>
+         <mdiv xml:id="EspecieMayordiv">
+            <score xml:id="EspecieMayorscore">
+               <scoreDef xml:id="EspecieMayorscoreDef" midi.bpm="480">
+                  <staffGrp xml:id="EspecieMayorstaffGrp">
+                     <staffDef xml:id="EspecieMayorstaffDef" key.pname="c" keysig="0" key.mode="major" n="1" lines="5" clef.shape="G" clef.line="2" />
+                  </staffGrp>
+               </scoreDef>
+               <section xml:id="EspecieMayorsection">
+                  <measure xml:id="EspecieMayormeasure" right="dbl">
+                     <staff xml:id="EspecieMayorstaff" n="1">
+                        <layer xml:id="EspecieMayorlayer1" n="1">
+                           <chord xml:id="EspecieMayor1" dur="1" type="major">
+                              <note xml:id="EspecieMayor1-1" pname="c" oct="4" />
+                              <note xml:id="EspecieMayor1-3" pname="e" oct="4" />
+                              <note xml:id="EspecieMayor1-5" pname="g" oct="4" />
+                           </chord>
+                           <chord xml:id="EspecieMayor2" dur="1" type="minor">
+                              <note xml:id="EspecieMayor2-1" pname="d" oct="4" />
+                              <note xml:id="EspecieMayor2-3" pname="f" oct="4" />
+                              <note xml:id="EspecieMayor2-5" pname="a" oct="4" />
+                           </chord>
+                           <chord xml:id="EspecieMayor3" dur="1" type="minor">
+                              <note xml:id="EspecieMayor3-1" pname="e" oct="4" />
+                              <note xml:id="EspecieMayor3-3" pname="g" oct="4" />
+                              <note xml:id="EspecieMayor3-5" pname="b" oct="4" />
+                           </chord>
+                           <chord xml:id="EspecieMayor4" dur="1" type="major">
+                              <note xml:id="EspecieMayor4-1" pname="f" oct="4" />
+                              <note xml:id="EspecieMayor4-3" pname="a" oct="4" />
+                              <note xml:id="EspecieMayor4-5" pname="c" oct="5" />
+                           </chord>
+                           <chord xml:id="EspecieMayor5" dur="1" type="major">
+                              <note xml:id="EspecieMayor5-1" pname="g" oct="4" />
+                              <note xml:id="EspecieMayor5-3" pname="b" oct="4" />
+                              <note xml:id="EspecieMayor5-5" pname="d" oct="5" />
+                           </chord>
+                           <chord xml:id="EspecieMayor6" dur="1" type="minor">
+                              <note xml:id="EspecieMayor6-1" pname="a" oct="4" />
+                              <note xml:id="EspecieMayor6-3" pname="c" oct="5" />
+                              <note xml:id="EspecieMayor6-5" pname="e" oct="5" />
+                           </chord>
+                           <chord xml:id="EspecieMayor7" dur="1" type="diminished">
+                              <note xml:id="EspecieMayor7-1" pname="b" oct="4" />
+                              <note xml:id="EspecieMayor7-3" pname="d" oct="5" />
+                              <note xml:id="EspecieMayor7-5" pname="f" oct="5" />
+                           </chord>
+                        </layer>
+                     </staff>
+                     <harm xml:id="EspecieMayor1deg" type="degree" startid="#EspecieMayor1" place="above">I</harm>
+                     <harm xml:id="EspecieMayor1esp" type="quality" startid="#EspecieMayor1" place="below">M</harm>
+                     <harm xml:id="EspecieMayor2deg" type="degree" startid="#EspecieMayor2" place="above">II</harm>
+                     <harm xml:id="EspecieMayor2esp" type="quality" startid="#EspecieMayor2" place="below">m</harm>
+                     <harm xml:id="EspecieMayor3deg" type="degree" startid="#EspecieMayor3" place="above">III</harm>
+                     <harm xml:id="EspecieMayor3esp" type="quality" startid="#EspecieMayor3" place="below">m</harm>
+                     <harm xml:id="EspecieMayor4deg" type="degree" startid="#EspecieMayor4" place="above">IV</harm>
+                     <harm xml:id="EspecieMayor4esp" type="quality" startid="#EspecieMayor4" place="below">M</harm>
+                     <harm xml:id="EspecieMayor5deg" type="degree" startid="#EspecieMayor5" place="above">V</harm>
+                     <harm xml:id="EspecieMayor5esp" type="quality" startid="#EspecieMayor5" place="below">M</harm>
+                     <harm xml:id="EspecieMayor6deg" type="degree" startid="#EspecieMayor6" place="above">VI</harm>
+                     <harm xml:id="EspecieMayor6esp" type="quality" startid="#EspecieMayor6" place="below">m</harm>
+                     <harm xml:id="EspecieMayor7deg" type="degree" startid="#EspecieMayor7" place="above">VII</harm>
+                     <harm xml:id="EspecieMayor7esp" type="quality" startid="#EspecieMayor7" place="below">
+                     	<fb>
+                        	<f>
+                           	<rend rend="bslash">5</rend>
+                           </f>
+                        </fb>
+                     </harm>
+                  </measure>
+               </section>
+            </score>
+         </mdiv>
+      </body>
+   </music>
+</mei>
